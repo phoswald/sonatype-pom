@@ -103,8 +103,8 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/phoswald/sonatype-pom.git</connection>
-    <developerConnection>scm:git:ssh://github.com/phoswald/sonatype-pom.git</developerConnection>
+    <connection>scm:git:git@github.com:phoswald/sonatype-pom.git</connection>
+    <developerConnection>scm:git:git@github.com:phoswald/sonatype-pom.git</developerConnection>
     <url>https://github.com/phoswald/sonatype-pom/tree/master</url>
     <tag>HEAD</tag>
   </scm>
