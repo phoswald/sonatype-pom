@@ -19,6 +19,7 @@
         <configuration>
           <releaseProfiles>release</releaseProfiles>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <privateKey>${user.home}/.ssh/id_rsa</privateKey>
         </configuration>
       </plugin>
       <plugin>
@@ -103,7 +104,7 @@
 
   <scm>
     <connection>scm:git:https://github.com/phoswald/sonatype-pom.git</connection>
-    <developerConnection>scm:git:https://github.com/phoswald/sonatype-pom.git</developerConnection>
+    <developerConnection>scm:git:ssh://github.com/phoswald/sonatype-pom.git</developerConnection>
     <url>https://github.com/phoswald/sonatype-pom/tree/master</url>
     <tag>HEAD</tag>
   </scm>
