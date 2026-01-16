@@ -19,7 +19,6 @@
         <configuration>
           <releaseProfiles>release</releaseProfiles>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <privateKey>${user.home}/.ssh/id_rsa</privateKey>
         </configuration>
       </plugin>
       <plugin>
